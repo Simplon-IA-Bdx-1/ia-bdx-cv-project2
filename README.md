@@ -13,6 +13,16 @@ Pour mieux comprendre tSNe : [ici](https://distill.pub/2016/misread-tsne/)
 Pour mieux comprendre UMAP (pas juste de la visualisation) : [ici](https://pypi.org/project/umap-learn/) 
 Pour la différence entre PCA et ICA : [ici](http://compneurosci.com/wiki/images/4/42/Intro_to_PCA_and_ICA.pdf)
 
+** Data Augmentation
+
+* Choisir 9 images quelconques de Hand Digits
+* Générer des variantes avec les fonctions de Data Augmentation de Keras
+    * Voir ImageDataGenerator()
+    * Appliquer une translation aléatoire
+    * Appliquer une rotation aléatoire
+    * Appliquer le ZCA whitening
+    * Appliquer feature standardization
+
 ** Preprocessing des images : un petit tour par OpenCV
 
 Travail en binôme
@@ -26,9 +36,7 @@ Travail en binôme
 * Choisir une courte vidéo
 * Appliquer GoTurn
 
-** Data Augmentation
 
-* Choisir une image quelconque
-* Générer des variantes avec les fonctions de Data Augmentation de Keras
+
 
 Note : le Data Augmentation n'est pas une technique réservée aux problèmes de CV
