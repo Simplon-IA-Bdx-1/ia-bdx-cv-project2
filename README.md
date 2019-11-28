@@ -20,8 +20,8 @@ Pour la différence entre PCA et ICA : [ici](http://compneurosci.com/wiki/images
     * Voir ImageDataGenerator()
     * Appliquer une translation aléatoire
     * Appliquer une rotation aléatoire
-    * Appliquer le ZCA whitening
     * Appliquer feature standardization
+    * Appliquer le ZCA whitening (des explications [ici](https://cbrnr.github.io/2018/12/17/whitening-pca-zca/))
 
 ** Preprocessing des images : un petit tour par OpenCV
 
